@@ -43,7 +43,7 @@ public static WebDriver sdriver;
 		File_Uitility flib = new File_Uitility();
 		String BROWSER = flib.getKeyAndValue("browser");
 	
-		//reading keys from cmd prompt
+		//reading keys from cmd prompt/Jenkins
 //		String BROWSER = System.getProperty("browser");
 		
 		if (BROWSER.equalsIgnoreCase("chrome")) {
